@@ -1,0 +1,40 @@
+
+@media screen and ( max-width: 668px) {
+    /* HEADER */
+    .grid-container{
+        padding: 1rem;
+        grid-template-columns: 6rem auto;
+        justify-content: space-evenly;
+    }
+    .grid-container__rwap--img {
+        height: 1.8rem
+    }
+    .buscador{
+        display: none;
+    } 
+    .grid-container__rwap__btn{
+    width: 133px;
+    height: 40px;
+    }
+    /* HABLA CON NOSOTROS */
+    .hablaConNosotros{
+        height: auto;
+        grid-template-columns: auto;
+        padding: 1rem;
+    }
+    .hablaConNosotros__logo{
+    display: flex;
+    justify-content: center;
+    }
+    .formulario__boton{
+    width: 133px;
+    height: 40px;
+    }
+    .hablaConNosotros__intems{
+        align-items: center;
+        gap: 0.8rem;
+        margin: 2rem 0;
+        }
+
+
+}

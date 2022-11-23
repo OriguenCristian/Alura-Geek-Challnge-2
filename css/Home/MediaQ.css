@@ -1,0 +1,44 @@
+@media screen and ( max-width: 668px) {
+    .banner{
+        height: 192px;
+    }
+    .banner__container{
+        padding:1rem;
+        gap: 0.45rem;
+    }
+    .banner__container__titulo{
+        font-size: 1.345rem;
+        line-height: 22px;
+    }
+    .banner__container__texto{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .banner__container__btn{
+        width: 118px;
+        height: 40px;
+    }
+    .container{
+        padding: 1rem;
+    }
+    .container__titulo{
+    font-size: 22px;
+    line-height: 26px;
+    }
+    .container__productos-seccion{
+    grid-template-columns: repeat(2, 178px);
+    justify-content: center;
+    justify-items: center;
+    }
+    .producto__imagen{
+        width: 156px;
+        height: 174px;
+    }
+    .producto__titulo, .producto__precio{
+        padding: 0;
+    }
+    .producto__boton{
+        padding: 0.68rem 0
+    }
+}

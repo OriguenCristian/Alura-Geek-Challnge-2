@@ -1,0 +1,50 @@
+.form-login{
+    background: #E5E5E5;
+    width:100%;
+    height: 50%;
+}
+.form-login__rwap{
+    text-align: left;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 4rem;
+    height: 100%;
+    width:100%;
+}
+.form-login__rwap__titulo{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--titulo-seccion);
+}
+.form-login__rwap__input{
+
+    border: 0;
+    background: #FFFFFF;
+    color:#A2A2A2;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    margin: 0.6978rem 0;
+    padding: 0 0.96rem;
+    width: 559px;
+    height: 56px;
+    
+}
+.form-login__rwap input:focus{
+    outline: none;
+    border-bottom: solid 1px rgb(97, 96, 96) ;
+}
+.form-login__rwap__boton{
+    border: none;
+    background-color: var(--login-boton);
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;    
+    width: 559px;
+    height: 56px;
+}
